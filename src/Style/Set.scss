@@ -43,7 +43,7 @@ body{
     }
 };
 @mixin aga {
-    background: linear-gradient(145deg,#00FF00, #006400);
+    background: linear-gradient(145deg,#006400, #006400);
     height: 40px;
     width: 100px;
     position: absolute;
@@ -160,6 +160,13 @@ $lap:500px;
     } 
     
 }
+$nop:400px;
+@mixin nop() {
+    @media(max-width: #{$nop}){
+        @content;
+    } 
+    
+}
 
 .pop{
     background-color: white;
@@ -202,6 +209,10 @@ $lap:500px;
      @include lap(){
         left: 8%;
         top: 21%;
+        }
+        @include nop(){
+        left: 4%;
+            
         }
    
   }
@@ -371,6 +382,9 @@ $lap:500px;
         top: 16%;
         left: 60%;
         }
+        @include nop(){
+            top: 2%;
+        }
     
 }
 .to{
@@ -387,7 +401,9 @@ $lap:500px;
     width: 6rem;
     left: 13%;
     top: 16%;
-    
+    }
+    @include nop(){
+        top: 2%;
     }
 }
 .bos{
@@ -406,6 +422,10 @@ $lap:500px;
         left: 12%;
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
+    }
+    @include nop(){
+        left: 8%;
+        height: 650px;
     }
 
    

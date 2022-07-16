@@ -46,7 +46,7 @@ body {
 }
 
 .col {
-  background: linear-gradient(145deg, #00FF00, #006400);
+  background: linear-gradient(145deg, #006400, #006400);
   height: 40px;
   width: 100px;
   position: absolute;
@@ -55,14 +55,14 @@ body {
 }
 
 .loc {
-  background: linear-gradient(145deg, #00FF00, #006400);
+  background: linear-gradient(145deg, #006400, #006400);
   height: 40px;
   width: 100px;
   position: absolute;
 }
 
 .dol {
-  background: linear-gradient(145deg, #00FF00, #006400);
+  background: linear-gradient(145deg, #006400, #006400);
   height: 40px;
   width: 100px;
   position: absolute;
@@ -71,7 +71,7 @@ body {
 }
 
 .koc {
-  background: linear-gradient(145deg, #00FF00, #006400);
+  background: linear-gradient(145deg, #006400, #006400);
   height: 40px;
   width: 100px;
   position: absolute;
@@ -172,6 +172,11 @@ li {
   .pop {
     left: 8%;
     top: 21%;
+  }
+}
+@media (max-width: 400px) {
+  .pop {
+    left: 4%;
   }
 }
 
@@ -385,6 +390,11 @@ li {
     left: 60%;
   }
 }
+@media (max-width: 400px) {
+  .wel {
+    top: 2%;
+  }
+}
 
 .to {
   color: green;
@@ -402,6 +412,11 @@ li {
     width: 6rem;
     left: 13%;
     top: 16%;
+  }
+}
+@media (max-width: 400px) {
+  .to {
+    top: 2%;
   }
 }
 
@@ -423,6 +438,12 @@ li {
     left: 12%;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .bos {
+    left: 8%;
+    height: 650px;
   }
 }
 
