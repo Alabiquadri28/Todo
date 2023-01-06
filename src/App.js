@@ -1,6 +1,8 @@
 import './App.css';
 import './Style/Set.css'
-import Todo from './Todo';
+import Music from './Music/Music';
+
+
 
 
 
@@ -9,7 +11,9 @@ function App() {
 
   return (
   <div className="App">
-  <Todo/>
+   
+    <Music />
+  
    </div>
 
   );

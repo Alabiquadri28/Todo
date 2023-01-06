@@ -1,10 +1,190 @@
 .App {
   text-align: center;
+  background: linear-gradient(130deg, #2d2759,#2d2759);
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
+}
+.ima{
+  height: 30px;
+  width: 30px;
+}
+.cad{
+margin-left: 10%;
+display: inline-block;
+
+}
+.spa{
+  height: 40px;
+  width: 300px;
+  background-color:orange;
+  color: black;
+  
+}
+
+.pau{
+  position: absolute;
+  top: 80%;
+  left:41% ;
+ height: 60px;
+ width: 60px;
+ border-radius: 40px;
+ color: white;
+ background: linear-gradient(145deg,rgb(234, 45, 234),rgb(74, 23, 74));
+
+}
+
+.pau:hover{
+  background: linear-gradient(145deg, rgb(176, 153, 176), rgb(176, 153, 176));
+  }
+.folly{
+  height: 300px;
+  width: 350px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.sub{
+  background-color:  #3e386c;
+  height: 515px;
+  width: 350px;
+  position: absolute;
+  top:10%;
+  border-radius: 15px;
+  
+}
+
+.ser{
+  height: 40px;
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #696397;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: rgb(232, 213, 213);
+  font-size: 22px;
+  border: #2d2759;
+  
+  
+}
+
+.helw{
+  color: rgb(154, 153, 153);
+  text-align: left;
+  margin-left: 25px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.what{
+  font-size: 13px;
+
+}
+.hell{
+  font-size: 20px;
+  
+}
+
+.con{
+  margin: 10px;
+  background-color: #19162f;
+  height: 570px;
+  width: 350px;
+  border-radius: 15px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translatex(-50%);
+
+}
+.dre{
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 120%;
+  color: rgb(154, 153, 153);
+}
+.dre:hover{
+  color: antiquewhite;
+  }
+.nex{
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 670%;
+  color: rgb(154, 153, 153);
+  top: 30%;
+  
+}
+.nex:hover{
+  color: antiquewhite;
+  }
+.play{
+  position: absolute;
+  top: 80%;
+  left:41% ;
+ height: 60px;
+ width: 60px;
+ border-radius: 40px;
+ color: white;
+ background: linear-gradient(145deg,rgb(234, 45, 234),rgb(74, 23, 74));
+}
+ 
+.play:hover{
+background: linear-gradient(145deg, rgb(176, 153, 176), rgb(176, 153, 176));
+}
+
+
+
+.buy{
+  display: none;
+}
+
+.buk{
+  list-style-type: none;
+  position: absolute;
+  top: 80%;
+  
+}
+
+.bop{
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+ color: rgb(211, 205, 205);
+  font-size: 20px;
+  
+}
+
+.mob{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(211, 205, 205);
+  
+}
+
+.nas{
+  border: 1px  solid red;
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.nas:hover{
+  background-color: red;
+  color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -41,12 +221,40 @@
   width: 6px;
 }
 
-body{
-
-}
 @media screen and(max-width:1115px){
   .pop{
     background-color: green;
     width: 400px;
   }
 }
+@media screen and (max-width:375px){
+  .sub{
+    width: 310px;
+  }
+  .con{
+    width: 310px;
+    left: 47.5% ;
+  }
+  .folly{
+    width: 310px;
+  }
+  .nex{
+    left: 580%;
+  }
+}
+@media screen and (max-width:414px){
+  .sub{
+    width: 310px;
+  }
+  .con{
+    width: 310px;
+    left: 47% ;
+  }
+  .folly{
+    width: 310px;
+  }
+  .nex{
+    left: 580%;
+  }
+}
+
