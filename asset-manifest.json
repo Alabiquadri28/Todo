@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/Todo/static/css/main.5af30988.css",
-    "main.js": "/Todo/static/js/main.e2ab3f45.js",
+    "main.css": "/Todo/static/css/main.403348d8.css",
+    "main.js": "/Todo/static/js/main.c7baed2b.js",
     "static/js/787.39bb0775.chunk.js": "/Todo/static/js/787.39bb0775.chunk.js",
+    "static/media/sall.jpg": "/Todo/static/media/sall.7b9795b89d0bc5709abe.jpg",
+    "static/media/call.jpg": "/Todo/static/media/call.bca4748ad0474147a3a9.jpg",
+    "static/media/mall.jpg": "/Todo/static/media/mall.6c989007fa749f829f81.jpg",
+    "static/media/music_fallingdown.mp3": "/Todo/static/media/music_fallingdown.84172d389b71c68ec79e.mp3",
+    "static/media/ball.jpg": "/Todo/static/media/ball.e7733f6e45f38cbda28d.jpg",
+    "static/media/music_Rather Be.mp3": "/Todo/static/media/music_Rather Be.69b662cda33e56f1240e.mp3",
+    "static/media/music_Faded.mp3": "/Todo/static/media/music_Faded.bd9710a67d82515273ce.mp3",
+    "static/media/music_stay.mp3": "/Todo/static/media/music_stay.ae1d129edb45d1375d8b.mp3",
+    "static/media/nemag.jpeg": "/Todo/static/media/nemag.ef25d0204501134d1d1c.jpeg",
     "index.html": "/Todo/index.html",
-    "main.5af30988.css.map": "/Todo/static/css/main.5af30988.css.map",
-    "main.e2ab3f45.js.map": "/Todo/static/js/main.e2ab3f45.js.map",
+    "main.403348d8.css.map": "/Todo/static/css/main.403348d8.css.map",
+    "main.c7baed2b.js.map": "/Todo/static/js/main.c7baed2b.js.map",
     "787.39bb0775.chunk.js.map": "/Todo/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5af30988.css",
-    "static/js/main.e2ab3f45.js"
+    "static/css/main.403348d8.css",
+    "static/js/main.c7baed2b.js"
   ]
 }
